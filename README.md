@@ -42,17 +42,17 @@ Using GROUPBY to CONCAT the column values.
 > Output:
 > ![image](https://github.com/mythilyram/Movies-SQL/assets/123518126/e8402fb3-7a20-4e59-aa21-56f0400c88e5)
 
-5.  For every actor, display the actor_id and movie count
-Using a correlated subquery:
- A subquery (a query nested inside another query) that uses values from the outer query. Because the subquery may be evaluated once for each row processed by the outer query, it can be slow.
+### correlated subquery:
+A subquery (a query nested inside another query) that uses values from the outer query. Because the subquery may be evaluated once for each row processed by the outer query, it can be slow.
 
+5.  For every actor, display the actor_id and movie count
 > SQL Query:
 > ![image](https://github.com/mythilyram/Movies-SQL/assets/123518126/646dcb9c-32c2-441d-b4ae-bc12d2c20d9f)
 
 > Output:
 > ![image](https://github.com/mythilyram/Movies-SQL/assets/123518126/207f4cba-a49a-446b-863c-7ef592c4283c)
 
-Using CTE
+### CTE
 
 > SQL Query:
 > ![image](https://github.com/mythilyram/Movies-SQL/assets/123518126/a229d334-9515-4445-ba06-ab6299e2f8ac)
